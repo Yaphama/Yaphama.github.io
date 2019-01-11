@@ -1,0 +1,120 @@
+<!-- html code -->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<!-- css code -->
+<style>
+    body {
+        background: -webkit-linear-gradient(green, #345fec);
+        background: -o-linear-gradient(green, #345fec);
+        background: -moz-linear-gradient(green, #345fec);
+        background: linear-gradient(green, #345fec);
+    }
+
+    .bodyright {
+        width: 50%;
+    }
+
+    .bodyright p {
+        color: black;
+        font-size: 40px;
+        font-weight: normal;
+        text-align: left;
+        font-weight: 200;
+    }
+
+    .reg {
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    .registration {
+        font-size: 22px;
+        font-weight: 100;
+    }
+
+    .registration p {
+        font-size: 15px;
+        width: 380px;
+    }
+
+    .radius1 {
+        border-radius: 5px;
+        height: 35px;
+        font-size: 20px;
+        padding: 5px;
+        margin-left: 0px;
+        width: 225px;
+    }
+
+    .need {
+        font-size: 15px;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+
+    .need:hover {
+        color: darkblue;
+        text-decoration: underline;
+    }
+
+    .radius {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        height: 35px;
+        width: 450px;
+        font-size: 20px;
+        padding: 5px;
+        margin-left: 0px;
+    }
+
+    .title {
+        font-family: 'Helvetica Neue';
+        color: white;
+        background-color: darkgreen;
+        font-weight: normal;
+        text-align: center;
+        font-size: 27px;
+        width: auto;
+        line-height: 30px;
+        border-radius: 5px;
+    }
+
+</style>
+
+<body>
+    <div class="bodyright">
+        <p>Application Form</p>
+        <div class="registration">
+            <form id="login" action="" method="post">
+                <input type="text" placeholder="First Name" class="radius1" />
+                <input type="text" placeholder="Surname" class="radius1" /><br/><br/>
+                <input type="text" placeholder="Enter your scratch card number" value="" class="radius" /><br/><br/>
+                <input type="text" placeholder="Mobile number or E-mail address" class="radius" /><br/><br/>
+                <select name="year" class="radius"><option>Select Course</option><option>Business Administration</option>
+<option>Applied accounting</option><option>Economics</option></select><br/><br/> Select the university<br/>
+                <input type="checkbox">Froubay college<br/>
+                <input type="checkbox">Ipam Sierra Leone<br/>
+                <input type="checkbox">Njala University<br>
+                <br/> Birthday
+                <br/>
+                <select name="day"><option>Day</option><option>1</option>
+<option>2</option><option>3</option></select>
+                <select name="month"><option>January</option><option>February</option></select>
+                <select name="year"><option>Year</option><option>1997</option>
+<option>1998</option><option>1999</option></select>
+                
+                <input type="radio" name="gender" />Female<input type="radio" name="gender" />Male<br/>
+                
+                    
+                <button class="title" name="signup">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
